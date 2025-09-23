@@ -80,6 +80,7 @@ pytest --cov=python_module_template
 # In case of issues with the pytest module not found, you can try:
 python -m pytest
 python -m pytest --cov=python_module_template
+python -m pytest --cov=python_module_template --cov-report=html
 ```
 
 > Note: The tests will be run automatically in the CI/CD pipeline for each pull request. The coverage must be at least 80% to pass the tests.

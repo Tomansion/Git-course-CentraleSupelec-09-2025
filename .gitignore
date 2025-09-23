@@ -19,3 +19,5 @@ build/
 
 # Documentation
 docs/_build/
+
+*.sh
