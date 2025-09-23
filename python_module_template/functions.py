@@ -19,7 +19,7 @@ def subtract(a, b):
     return a - b
 
 
-def divide(a, b):
+def divide(a, b) -> Union[int, float]:
     """
     Divide two numbers.
 
