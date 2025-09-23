@@ -15,4 +15,3 @@ from python_module_template.functions import modulo
 )
 def test_modulo(a, b, expected):
     assert modulo(a, b) == expected
-
