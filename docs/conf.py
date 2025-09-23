@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.abspath(".."))
 project = "Python module template"
 copyright = "2025, ToMansion"
 author = "ToMansion"
-release = "1.0.0"
+release = "1.0.2"
 
 # -- General configuration ---------------------------------------------------
 
