@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="python_module_template",
-    version="1.0.0",
+    version="1.0.1",
     author="ToMansion",
     description="Python library template, performs basic operations",
     license="Apache 2.0",
