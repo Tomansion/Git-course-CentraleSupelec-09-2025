@@ -1,5 +1,5 @@
 import pytest
-from python_module_template.functions import add
+from python_module_template.functions import add, squareRoot
 
 
 @pytest.mark.parametrize(
@@ -14,3 +14,4 @@ from python_module_template.functions import add
 )
 def test_add(a, b, expected):
     assert add(a, b) == expected
+    assert squareRoot(4) == 2 

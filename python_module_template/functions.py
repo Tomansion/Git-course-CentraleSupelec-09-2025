@@ -1,4 +1,5 @@
 from typing import Union
+import math
 
 
 def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
@@ -17,3 +18,16 @@ def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
 
 def subtract(a, b):
     return a - b
+
+
+def squareRoot(a: Union[int, float]):
+    """
+    take in arg a numbre and give the square root
+
+    Parameters:
+    a (int or float)
+
+    Returns:
+    int or float: The square root of the numbre
+    """
+    return math.sqrt(a)
