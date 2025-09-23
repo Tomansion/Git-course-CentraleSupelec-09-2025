@@ -20,7 +20,7 @@ def subtract(a, b):
     return a - b
 
 
-def squareRoot(a: Union[int, float]):
+def squareRoot(a: Union[int, float]) -> Union[int, float]:
     """
     take in arg a number and give the square root
 
