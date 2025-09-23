@@ -21,8 +21,6 @@ def add(
         return [x + y for x, y in zip(a, b)]
     elif isinstance(a, (int, float)) and isinstance(b, (int, float)):
         return a + b
-    else:
-        raise TypeError("Both arguments must be numbers or lists of the same length")
 
 
 def subtract(a, b):
