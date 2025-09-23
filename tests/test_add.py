@@ -14,7 +14,8 @@ from python_module_template.functions import add, squareRoot
 )
 def test_add(a, b, expected):
     assert add(a, b) == expected
-    assert squareRoot(4) == 2 
+    assert squareRoot(4) == 2
+
 
 def test_add_asserts():
     assert add(1, 2) == 3
@@ -22,4 +23,3 @@ def test_add_asserts():
     assert add(0, 0) == 0
     assert add(1.5, 2.5) == 4.0
     assert add(-1.5, -2.5) == -4.0
-
