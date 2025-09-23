@@ -9,7 +9,7 @@ from python_module_template.functions import modulo
         (15, 6, 3),
         (-1, 1, 0),
         (5.5, 2, 1.5),
-        (15, 2.5, 0.5),
+        (16, 2.5, 1.0),
         (5, 0, "no division by 0"),
     ],
 )
