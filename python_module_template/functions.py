@@ -44,3 +44,7 @@ def squareRoot(a: Union[int, float]) -> Union[int, float]:
         return complex(0, math.sqrt(-a))
 
     return math.sqrt(a)
+
+
+def multiply(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
+    return a * b
