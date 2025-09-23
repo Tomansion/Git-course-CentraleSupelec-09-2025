@@ -54,3 +54,18 @@ def power(a, b):
     if a == 0 and b == 0:
         return None
     return a**b
+def divide(a, b) -> Union[int, float]:
+    """
+    Divide two numbers.
+
+    Parameters:
+    a (int or float): The first number.
+    b (int or float): The second number.
+
+    Returns:
+    int or float: The division of the two numbers.
+    """
+    if a == 0 | b == 0:
+        raise Exception("Divide by zero error")
+
+    return a / b
