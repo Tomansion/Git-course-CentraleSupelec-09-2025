@@ -33,4 +33,4 @@ def divide(a, b):
     if a == 0 | b == 0:
         raise Exception("Divide by zero error")
 
-    return a * b
+    return a / b
