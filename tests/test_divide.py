@@ -11,5 +11,5 @@ def test_divide(a, b, expected):
 
 
 def test_divide_asserts():
-    assert divide(2, 1) == 1
+    assert divide(2, 1) == 2
     assert divide(5, 2) == 2.5
