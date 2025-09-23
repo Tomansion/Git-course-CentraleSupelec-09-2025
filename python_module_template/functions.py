@@ -19,5 +19,5 @@ def subtract(a, b):
     return a - b
 
 
-def multiply(a: Union[int, float], b: Union[int,float] -> Union[int, float]:
+def multiply(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     return a * b
