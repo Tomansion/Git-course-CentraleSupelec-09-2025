@@ -1,4 +1,3 @@
-import pytest
 from python_module_template.functions import squareRoot
 
 
