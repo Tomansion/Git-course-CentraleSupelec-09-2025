@@ -15,15 +15,5 @@ def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     return a + b
 
 
-def subtract(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
-    """
-    Subtract two numbers.
-
-    Parameters:
-    a (int or float): The first number.
-    b (int or float): The second number.
-
-    Returns:
-    int or float: The difference of the two numbers.
-    """
+def subtract(a, b):
     return a - b
