@@ -17,3 +17,16 @@ def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
 
 def subtract(a, b):
     return a - b
+
+def modulo(a: Union[int, float], b: Union[int, float]) -> Union[int, string]:
+    """
+    Modulo two numbers.
+    Parameters:
+    a (int or float): The first number.
+    b (int or float): The second number.
+    Returns:
+    int, float or string: The remainder when a is divided by b or "no division by 0" if b = 0.
+    """
+    if b == 0:
+        return "no division by 0"
+    return a % b
