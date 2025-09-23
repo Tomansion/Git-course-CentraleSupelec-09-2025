@@ -22,12 +22,12 @@ def subtract(a, b):
 
 def squareRoot(a: Union[int, float]):
     """
-    take in arg a numbre and give the square root
+    take in arg a number and give the square root
 
     Parameters:
     a (int or float)
 
     Returns:
-    int or float: The square root of the numbre
+    int or float: The square root of the number
     """
     return math.sqrt(a)
