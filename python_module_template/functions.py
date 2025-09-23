@@ -1,4 +1,5 @@
 from typing import Union
+import math
 
 
 def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
@@ -29,15 +30,17 @@ def subtract(a: Union[int, float], b: Union[int, float]) -> Union[int, float]):
     return a - b
 
 
-def modulo(a: Union[int, float], b: Union[int, float]) -> Union[int, str]:
+def squareRoot(a: Union[int, float]) -> Union[int, float]:
     """
-    Modulo two numbers.
+    take in arg a number and give the square root
+
     Parameters:
-    a (int or float): The first number.
-    b (int or float): The second number.
+    a (int or float)
+
     Returns:
-    int, float or str: The remainder when a is divided by b or "no division by 0" if b = 0.
+    int or float: The square root of the number
     """
-    if b == 0:
-        return "no division by 0"
-    return a % b
+    if a < 0:
+        return complex(0, math.sqrt(-a))
+
+    return math.sqrt(a)
