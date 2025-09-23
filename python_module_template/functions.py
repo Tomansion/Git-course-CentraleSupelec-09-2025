@@ -30,4 +30,7 @@ def squareRoot(a: Union[int, float]) -> Union[int, float]:
     Returns:
     int or float: The square root of the number
     """
+    if a < 0:
+        return complex(0, math.sqrt(-a))
+
     return math.sqrt(a)
