@@ -1,0 +1,41 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "__pycache__",
+    "automodule",
+    "connexion",
+    "dataframe",
+    "DebiAI",
+    "fastapi",
+    "imshow",
+    "ipynb",
+    "jsonify",
+    "numpy",
+    "pypi",
+    "pytest",
+    "systemx",
+    "uvicorn",
+    "venv"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "*.bat",
+    "*.egg-info",
+    "*.svg",
+    "*.json",
+    "*.png",
+    "*.yaml",
+    "*.log",
+    "*.ipynb",
+    "*.sh",
+    ".vscode/*",
+    "build",
+    "docs/_build",
+    "docs/Makefile",
+    "requirements.txt",
+    "__pycache__/",
+    "htmlcov/",
+    "venv"
+  ]
+}

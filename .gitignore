@@ -1,0 +1,21 @@
+.vscode/settings.json
+.pytest_cache
+__pycache__/
+.vscode/
+.idea/
+poc/
+venv/
+.venv/
+
+# Coverage
+.coverage
+coverage.xml
+report.html
+assets/style.css
+
+# Build
+build/
+*.egg-info/
+
+# Documentation
+docs/_build/
