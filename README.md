@@ -51,6 +51,18 @@ cd Python-module-template
 pip install .
 ```
 
+## Automatic documentation generation
+
+Available at: [https://tomansion.github.io/Git-course-CentraleSupelec-09-2025/](https://tomansion.github.io/Git-course-CentraleSupelec-09-2025/)
+
+### Setup
+
+1. Create a `gh-pages` branch in your repository.
+2. Go to the repository settings, then to the "Pages" section, and select the `gh-pages` branch as the source for GitHub Pages.
+3. Go into Settings > actions > General and make sure that "Workflow permissions" is set to "Read and write permissions".
+
+When you push a commit to the `main` branch, the documentation will be automatically generated and deployed to GitHub Pages.
+
 ## Test
 
 To run the tests using Pytest, follow these steps:
