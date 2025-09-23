@@ -17,3 +17,9 @@ def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
 
 def subtract(a, b):
     return a - b
+
+
+def power(base, exponent):
+    if base == 0 and exponent == 0:
+        return None
+    return base ** exponent
