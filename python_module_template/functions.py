@@ -19,7 +19,7 @@ def subtract(a, b):
     return a - b
 
 
-def power(base, exponent):
-    if base == 0 and exponent == 0:
+def power(a, b):
+    if a == 0 and b == 0:
         return None
-    return base ** exponent
+    return a**b
