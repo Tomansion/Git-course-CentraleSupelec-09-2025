@@ -16,6 +16,7 @@
     "pytest",
     "systemx",
     "uvicorn",
+    "vartotest",
     "venv"
   ],
   "flagWords": [],

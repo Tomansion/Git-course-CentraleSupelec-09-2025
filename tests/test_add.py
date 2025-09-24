@@ -22,3 +22,5 @@ def test_add_asserts():
     assert add(0, 0) == 0
     assert add(1.5, 2.5) == 4.0
     assert add(-1.5, -2.5) == -4.0
+    with pytest.raises(TypeError):
+        assert add("Fail", "Test")
