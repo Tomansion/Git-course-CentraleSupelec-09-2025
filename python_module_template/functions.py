@@ -102,3 +102,25 @@ def divide(a, b) -> Union[int, float]:
         raise Exception("Divide by zero error")
 
     return a / b
+
+
+def power(base: float, exponent: int) -> float:
+    """
+    Calculate the result of raising a base number to a given exponent.
+
+    Args:
+        base (float): The number to be raised.
+        exponent (int): The power to which the base number is raised.
+
+    Returns:
+        float: The result of base raised to the power of exponent.
+
+    Example:
+        >>> power(2, 3)
+        8
+        >>> power(5, 0)
+        1
+        >>> power(9, -2)
+        0.012345679
+    """
+    return base ** exponent
