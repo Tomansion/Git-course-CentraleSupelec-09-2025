@@ -52,6 +52,7 @@ def isIntOrFloat(vartotest):
 
 
 def subtract(a, b):
+    # Useless comment
     return a - b
 
 
